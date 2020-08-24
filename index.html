@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja Bem Vindo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/cadeado.svg" type="imge/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-12 col-sm-12 col-lg-12">
+                <div id="visitante" class="formulario text-center" style="display: none;">
+                    <h2>
+                        Visitante
+                    </h2> <br>
+                    <img src="img/visitante.svg" class="icones"> <br>
+                    <input id="login-visitante" class="input mt-3 mb-3" type="text" placeholder="Login"> <br>
+                    <input id="senha-visitante" class="input mb-3" type="password" placeholder="Senha"> <br>
+                    <button onclick="login()" class="btn btn-primary" type="button">Login</button>
+                </div>
+                <div id="master" class="formulario text-center" style="display: none;">
+                    <h2>
+                        Orientadora/Coorientador
+                    </h2> <br>
+                    <img src="img/masters.svg" class="icones"> <br>
+                    <input id="login-master" class="input mt-3 mb-3" type="text" placeholder="Login"> <br>
+                    <input id="senha-master" class="input mb-3" type="password" placeholder="Senha"> <br>
+                    <button onclick="login()" class="btn btn-primary" type="button">Login</button>
+                </div>
+                <div class="text-center select mt-2">
+                    <select onchange="select()" id="select">
+                        <option value="vazio">Selecione o seu Perfil</option>
+                        <option value="master">Orientadora/Coorientador</option>
+                        <option value="visitante">Visitante</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src=" js/jquery-3.4.1.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/scritps.js"></script>
+</body>
+
+</html>
