@@ -1,0 +1,75 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grad {
+    background: linear-gradient(-105deg, #313131e7, #000000fd 45%, #313131e7 100%);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.caixa {
+    background-color: rgba(53, 53, 53, 0.726);
+    width: 300px;
+    color: white;
+    padding: 20px;
+    border-radius: 45px 5px 45px 5px;
+    box-shadow: black 0 20px 20px;
+}
+
+.caixa .titulo {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.caixa .campo input {
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    border-bottom: 1px solid white;
+}
+
+.cadastro {
+    text-align: center;
+}
+
+.img-user>img {
+    background-color: white;
+    border-radius: 100%;
+    height: 100px;
+}
+
+.form-group>.form-control {
+    background: rgb(34, 34, 34);
+}
+
+option {
+    color: white !important;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#rm {
+    display: none;
+}
+
+.btn-entrar {
+    background-image: radial-gradient(circle, rgb(60, 184, 66) 20%, rgb(255, 255, 255));
+    border: none !important;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none !important;
+}

@@ -1,0 +1,15 @@
+.jumbotron {
+    background-image: linear-gradient(rgb(211, 196, 109), rgb(171, 219, 83));
+}
+
+thead {
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+}
+
+.coluna-2 {
+    border-left: 0.1px solid rgb(229, 229, 229);
+}
