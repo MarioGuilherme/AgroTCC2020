@@ -22,12 +22,12 @@ function acessar() {
 
     if (nome == "Rosana" && senha == "@adm123" && status == "0") {
         alert("Conectando ...")
-        window.open("src/professor/visao/index.html", "_self")
+        window.open("src/professor/visao/professor.html", "_self")
     } else if (nome == "Rosana" && senha == "@adm123" && status == "1") {
         alert("Erro ao conferir as credencias")
     } else if (nome != "" && senha != "" && status == "1") {
         alert("Conectando ...")
-        window.open("src/aluno/visao/index.html", "_self")
+        window.open("src/aluno/visao/aluno.html", "_self")
     } else if (nome != "" && senha != "" && status == "0") {
         alert("Erro ao conferir as credencias")
     } else [
