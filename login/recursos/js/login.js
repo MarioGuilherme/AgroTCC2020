@@ -6,12 +6,12 @@ function selecao() {
     var seletor = document.getElementById('my-select').value
 
     if (seletor == "professor(a)") {
-        imagem.setAttribute('src', '../recursos/img/professores.svg')
+        imagem.setAttribute('src', 'login/recursos/img/professores.svg')
         status = "0"
 
 
     } else {
-        imagem.setAttribute('src', '../recursos/img/alunos.svg')
+        imagem.setAttribute('src', 'login/recursos/img/alunos.svg')
         status = "1"
     }
 }
@@ -22,12 +22,12 @@ function acessar() {
 
     if (nome == "Rosana" && senha == "@adm123" && status == "0") {
         alert("Conectando ...")
-        window.open("../../professor/visao/index.html", "_self")
+        window.open("src/professor/visao/index.html", "_self")
     } else if (nome == "Rosana" && senha == "@adm123" && status == "1") {
         alert("Erro ao conferir as credencias")
     } else if (nome != "" && senha != "" && status == "1") {
         alert("Conectando ...")
-        window.open("../../aluno/visao/index.html", "_self")
+        window.open("src/aluno/visao/index.html", "_self")
     } else if (nome != "" && senha != "" && status == "0") {
         alert("Erro ao conferir as credencias")
     } else [
